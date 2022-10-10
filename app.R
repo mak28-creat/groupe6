@@ -7,7 +7,7 @@
 #    http://shiny.rstudio.com/
 #
 
-HP <- readr::read_csv("/Users/mak/Desktop/Projet R/DP_LIVE_03102022234015026.csv")
+HP <- readr::read_csv("https://github.com/mak28-creat/groupe6/blob/58acc9da22cdd422354991943a26db0bc634acf1/DP_LIVE_03102022234015026.csv")
 library(data.table)
 nrow(HP)
 setDT(HP)   
